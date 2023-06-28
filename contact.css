@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: lightgoldenrodyellow;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+.container{
+	width: 80%;
+	margin: 50px auto;
+}
+.contact-box{
+	background: #fff;
+	display: flex;
+}
+.contact-left{
+	flex-basis: 60%;
+	padding: 40px 60px;
+}
+.contact-right{
+	flex-basis: 40%;
+	padding: 40px;
+	background: #f59b24;
+	color: #fff;
+}
+h1{
+	margin-bottom: 10px;
+}
+.container p{
+	margin-bottom: 40px;
+}
+.input-row{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.input-row .input-group{
+	flex-basis: 45%;
+}
+input {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	outline: none;
+	padding-bottom: 5px;
+}
+textarea{
+	width: 100%;
+	border: 1px solid #ccc;
+	outline: none;
+	padding: 10px;
+	box-sizing: border-box;
+}
+label{
+	margin-bottom: 6px;
+	display: block;
+	color: bold;
+	font-family: sans-serif;
+}
+.button a{
+	color: #3d3d3d;
+	background-color: #f59b24;
+	border:1px solid #f59b24;
+	padding:0px 35px;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.button a:hover{
+	background-color: #fff;
+	color: brown;
+}
+
+.contact-left h3{
+	color: #f59b24;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.contact-right h3{
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+tr :first-child{
+	padding-right: 20px;
+} 
+
+tr :first-child{
+	padding-top: 20px;
+} 
